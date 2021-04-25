@@ -1,13 +1,13 @@
 baseURL = "http://fnooi.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Felicia Huang's Website"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
-    description = "Website title"
-    copyright = "short copyright message"
+    title = "Felicia N. Huang"
+    author = "Felicia Huang"
+    description = "Felicia Huang's Website"
+    copyright = ""
 
     [params.theme]
         # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
