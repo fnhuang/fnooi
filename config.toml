@@ -1,4 +1,4 @@
-baseURL = "https://fnooi.com/"
+baseURL = "www.fnooi.com"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "aafu"
