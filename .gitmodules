@@ -1,0 +1,6 @@
+[submodule "aafu"]
+	path = aafu
+	url = https://github.com/darshanbaral/aafu.git
+[submodule "themes/aafu"]
+	path = themes/aafu
+	url = https://github.com/darshanbaral/aafu.git
