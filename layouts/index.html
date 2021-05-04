@@ -14,9 +14,9 @@
       {{ $current := index $.Site.Params .item }}
       <span onclick="expandAccordion(this)" style="cursor: pointer;">
 		<div>
-			<div style="width:10%; float:left"><i class="{{ $current.icon }}"></i></div>
-			<div style="width:3%; float:left">&nbsp;</div>
-			<div>{{ $current.title -}}</div>
+		<div style="width:10%; float:left"><i class="{{ $current.icon }}"></i></div>
+		<div style="width:3%; float:left">&nbsp;</div>
+		<div>{{ $current.title -}}</div>
 		</div>
       </span>
     </h2>
