@@ -1,5 +1,5 @@
 {{ define "main" }}
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="{{ `/css/w3.css` | relURL }}">
 <h1 class="standard top-h1 mb-3 {{ if eq .Kind "term" }}font-italic{{ end }}">{{ if eq .Kind "term" }}#{{ end }}{{- .Title -}}</h1>
 <div class="w3-row-padding">{{- .Content -}}</div>
 <div class="w3-row-padding"> View posts in: <a style="color:blue" href="{{ .Site.BaseURL }}tenang">EN</a> | <a style="color:blue" href="{{ .Site.BaseURL }}tenang/id">ID</a> | 
@@ -15,6 +15,7 @@
 				<img src="/images/blog/{{- .Params.cover -}}" alt="Norway" style="width:100%" class="w3-hover-opacity">
 			</a>
 			<div class="w3-container w3-white">
+				<p></p>
 				<p style="color:green"><b><a href="{{ .Permalink | relURL }}"> {{- .Title -}} </a></b></p>
 				<p>{{- .Params.description -}}</p>
 				<div>
