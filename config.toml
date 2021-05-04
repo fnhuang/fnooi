@@ -7,7 +7,7 @@ theme = "aafu"
     title = "Felicia N. Huang"
     author = "Felicia Huang"
     description = "Felicia Huang's Website"
-    copyright = ""
+    copyright = "Felicia Huang 2021"
 
     [params.theme]
         # Available themes are 'light', 'dark', 'ocean', and 'pinkish'

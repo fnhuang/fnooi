@@ -1,0 +1,7 @@
+---
+title: "Tenang"
+weight: 100
+---
+
+Beyond a place for sharing, this space is a platform for my language practice. As such, each post will be bilingual. 
+It will be in English, and in one of the following languages: Indonesian, Chinese, or Russian.
