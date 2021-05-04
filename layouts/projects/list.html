@@ -1,4 +1,5 @@
 {{ define "main" }}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <h1 class="standard top-h1 mb-3 {{ if eq .Kind "term" }}font-italic{{ end }}">{{ if eq .Kind "term" }}#{{ end }}{{- .Title -}}</h1>
 {{ range $key, $val := (.Paginator 5).Pages.ByDate.Reverse }}
 <h3 class="d-flex flex-row align-items-start accordion mb-2 {{ if eq $key 0 }}active{{ end }}">

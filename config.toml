@@ -29,9 +29,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-        tagline = "Title"
-        location = "City Name, ST"
+        name = "Felicia N. Huang"
+        tagline = "Ph.D., Research Fellow"
+        location = "Singapore, Singapore"
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -40,32 +40,32 @@ theme = "aafu"
 
         [[params.social.list]]
             icon = "fab fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/in/felicia-huang-a5392124/"
             title = "LinkedIn"		
-        [[params.social.list]]
-            icon = "fab fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
+        #[[params.social.list]]
+            #icon = "fab fa-stack-overflow"
+            #url = "#"
+            #title = "StackOverflow"
         [[params.social.list]]
             icon = "fab fa-github"
-            url = "#"
+            url = "https://github.com/fnhuang"
             title = "GitHub"
         [[params.social.list]]
             icon = "fab fa-twitter"
-            url = "#"
+            url = "https://twitter.com/FeliciaHuang16"
             title = "Twitter"
         [[params.social.list]]
             icon = "fab fa-orcid"
-            url = "#"
+            url = "https://orcid.org/0000-0002-8700-8974"
             title = "Orcid"
         [[params.social.list]]
             icon = "ai ai-google-scholar"
-            url = "#"
+            url = "https://scholar.google.com/citations?user=5pAqgfwAAAAJ&hl=en"
             title = "Google Scholar"
-        [[params.social.list]]
-            icon = "fab fa-researchgate"
-            url = "#"
-            title = "ResearchGate"
+        #[[params.social.list]]
+            #icon = "fab fa-researchgate"
+            #url = "#"
+            #title = "ResearchGate"
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
