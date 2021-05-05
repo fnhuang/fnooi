@@ -13,7 +13,7 @@
     <h3 class="accordion {{ if .expand }} active {{ end }}">
       {{ $current := index $.Site.Params .item }}
       <span onclick="expandAccordion(this)" style="cursor: pointer;">
-    <div><i class="{{ $current.icon }}" style="margin-right: 10px"></i>{{ $current.title -}}</div>
+        <div><i class="{{ $current.icon }}" style="margin-right: 10px"></i>{{ $current.title -}}</div>
       </span>
     </h3>
     <div

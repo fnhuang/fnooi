@@ -1,6 +1,6 @@
 {{ range .Site.Params.education.list }}
 
-<h4 style="text-decoration: underline;">{{ .degree }}</h4>
+<h5 style="text-decoration: underline;">{{ .degree }}</h5>
 <p {{ if .thesis_title }}class="mb-0" {{ end }}>
   {{- .dates }} &middot; {{ .college -}}
 </p>

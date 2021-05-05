@@ -10,6 +10,7 @@
 	{{ $baseURL := .Site.BaseURL }}
 	{{ if eq 0 ( mod $key 3 ) }}
 	<div class="w3-row-padding">
+	{{ end }}
 		<div class="w3-third w3-container w3-margin-bottom">
 			<a href="{{ .Permalink | relURL }}">
 				<img src="/images/blog/{{- .Params.cover -}}" alt="Norway" style="width:100%" class="w3-hover-opacity">
@@ -37,61 +38,8 @@
 				</div>
 			</div>
 		</div>
-	{{ else if eq 2 ( mod $key 3 ) }}
-		<div class="w3-third w3-container w3-margin-bottom">
-			<a href="{{ .Permalink | relURL }}">
-				<img src="/images/blog/{{- .Params.cover -}}" alt="Norway" style="width:100%" class="w3-hover-opacity">
-			</a>
-			<div class="w3-container w3-white">
-				<p style="color:green"><b><a href="{{ .Permalink | relURL }}"> {{- .Title -}} </a></b></p>
-				<p>{{- .Params.description -}}</p>
-				<div>
-					<div style="float:left; width:50%"><p style="font-size:10px">Date: {{ .Date.Format "2006-01-02" }} </p></div>
-					<div style="float: left; width:50%">
-						<p style="font-size:10px">
-						Language: 
-						{{ $lang := len .Params.languages }}
-						{{ range $lkey, $lval := .Params.languages }}
-							<a style="color:blue" href="{{ $baseURL }}tenang/{{ lower $lval }}/{{ $baseName }}">
-							{{ $lval }} 
-							</a>
-							{{ if not (eq $lang (add $lkey 1)) }}
-							|
-							{{ end }}
-						{{ end }}
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
+	{{ if eq 2 ( mod $key 3 ) }}
 	</div>
-	{{ else }}
-		<div class="w3-third w3-container w3-margin-bottom">
-			<a href="{{ .Permalink | relURL }}">
-				<img src="/images/blog/{{- .Params.cover -}}" alt="Norway" style="width:100%" class="w3-hover-opacity">
-			</a>
-			<div class="w3-container w3-white">
-				<p style="color:green"><b><a href="{{ .Permalink | relURL }}"> {{- .Title -}} </a></b></p>
-				<p>{{- .Params.description -}}</p>
-				<div>
-					<div style="float:left; width:50%"><p style="font-size:10px">Date: {{ .Date.Format "2006-01-02" }} </p></div>
-					<div style="float: left; width:50%">
-						<p style="font-size:10px">
-						Language: 
-						{{ $lang := len .Params.languages }}
-						{{ range $lkey, $lval := .Params.languages }}
-							<a style="color:blue" href="{{ $baseURL }}tenang/{{ lower $lval }}/{{ $baseName }}">
-							{{ $lval }} 
-							</a>
-							{{ if not (eq $lang (add $lkey 1)) }}
-							|
-							{{ end }}
-						{{ end }}
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
 	{{ end }}
 {{ end }}
 <div class="mt-4 d-flex justify-content-center">

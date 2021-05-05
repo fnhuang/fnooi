@@ -13,6 +13,20 @@
 </em>
 {{ end }}
 {{ else }}
-{{- index .all .ind -}}
+{{ if eq .ind "authors" }}
+	{{ $authors :=  split (index .all .ind) ", " }}
+	{{ range $key, $author := $authors }}
+		{{ if not (eq $key 0) }}
+		,
+		{{ end }}
+		{{ if in $author "*" }}
+			<b>{{ substr $author 0 -1 }}</b>
+		{{ else }}
+			{{ $author }}
+		{{ end }}
+	{{ end }}
+{{ else }}
+	{{- index .all .ind -}}
+{{ end }}
 {{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
 {{ end }}
