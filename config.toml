@@ -77,8 +77,8 @@ theme = "aafu"
         item = "education"
     [[params.showInAccordion]]
         item = "publication"
-    [[params.showInAccordion]]
-        item = "project"
+    #[[params.showInAccordion]]
+        #item = "project"
     [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
@@ -87,7 +87,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user fa-fw"
-        description = "This is a demo of the `aafu` theme. It has `light`, `dark`, `ocean`, and `pinkish` themes."
+        description = "Felicia N. Huang is a research fellow at the Lee Kuan Yew Centre for Innovative Cities (LKYCIC). Prior to joining LKYCIC she received her Ph.D. from the Singapore Management Unviersity's School of Information Systems. Her research interests center on urban informatics, specifically its application on urban health and place identity."
 
     # Experience section
     [params.experience]
@@ -95,15 +95,15 @@ theme = "aafu"
         icon = "fas fa-briefcase fa-fw"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "Research Fellow"
+            dates = "2018 - *Present*"
+            company = "Lee Kuan Yew Centre for Innovative Cities"
+            details = "Currently lead, conduct, and collaborate in several research projects that harness big data to help with urban planning. Guide and supervise research interns and assistants."
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            url = "#"
-            company = "Company Name"
+            position = "IT Analyst"
+            dates = "2011 - 2012"
+            company = "Singapore Telecommunications Ltd."
+            details = "Assisted in building a website. Performed quality testing. Conducted code review."
 
     # Education section
     [params.education]
@@ -111,54 +111,89 @@ theme = "aafu"
         icon = "fas fa-graduation-cap fa-fw"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
+            degree = "Ph.D. in Information Systems"
+            college = "Singapore Management University"
             dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
+            thesis_title = "Exploring Offline Friendships on the Social Information Network"
+            thesis_url = "/docs/feliciaThesis.pdf"
+        [[params.education.list]]
+            degree = "Visiting Scholar"
+            college = "Center for Computational Analysis of Social Organizational Systems (CASOS), Carnegie Mellon University"
+            dates = "2016 - 2017"
+            thesis_title = ""
             thesis_url = "#"
         [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "B.Sc. in Information Systems"
+            college = "Singapore Management University "
+            dates = "2007 - 2011"
 
     # Publication section
     [params.publication]
         title = "Publications"
         icon = "fas fa-book fa-fw"
         #The order below determines the order in which the items appear in "Publications" section
-        format = ["date", "authors", "title", "journal"]
+        format = ["date", "authors", "title", "journal", "publisher"]
         #If you don't want to group publications, comment the line below by adding # at the beginning
-        types = ["Journal Articles", "Proceedings"]
+        # types = ["Journal Articles", "Proceedings", "Book Chapters"]
+		types = ["Proceedings", "Book Chapters"]
 
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
+            title = "Sensing Community Resilience from COVID-19 Using Social Media (accepted)"
+            authors = "Felicia N. HUANG*, Kelly LIM, Evan SIDHI, Belinda YUEN"
+            date = "2021"
+            journal = "COVID –19 : Geospatial Information and Community Resilience"
+			publisher = "Taylor and Francis Group"
+            type = "Book Chapters"
+			
+		[[params.publication.list]]
+            title = "Offline versus Online: A Meaningful Categorization of Ties for Retweet"
+            authors = "Felicia NATALI*, Feida ZHU"
             date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Journal Articles"
-
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
-            type = "Journal Articles"
-		
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            url = "#"
+            journal = "10th International Conference on Social Informatics"
+			publisher = "Springer"
             type = "Proceedings"
+		
+		[[params.publication.list]]
+            title = "The Role of Different Tie Strength in Disseminating Different Topics on a Microblog"
+            authors = "Felicia NATALI*,  Binxuan HUANG, Kathleen M. CARLEY, Feida ZHU"
+            date = "2017"
+            journal = "ASONAM '17: Advances in Social Networks Analysis and Mining"
+			publisher = "ACM"
+            type = "Proceedings"
+		
+		[[params.publication.list]]
+            title = "A Comparison of Fundamental Network Formation Principles between Offline and Online Friends On Twitter"
+            authors = "Felicia NATALI*, Feida ZHU"
+            date = "2016"
+            journal = "NetSci-X 2016: Advances in Network Science"
+			publisher = "Springer"
+            type = "Proceedings"
+		
+		[[params.publication.list]]
+            title = "Extending the Network: The Influence of Offline Friendship on Twitter Network"
+            authors = "Youngsoo KIM, Kyungsub CHOI, and Felicia NATALI*"
+            date = "2016"
+            journal = "22nd Americas Conference on Information Systems (AMCIS 2016)"
+			publisher = "Association for Information Systems (AIS)"
+            type = "Proceedings"
+		
+		[[params.publication.list]]
+            title = "Investigating the Influence of Offline Friendship on Twitter Networking Behaviors"
+            authors = "Youngsoo KIM, Felicia NATALI*, Feida ZHU, and Ee-Peng LIM"
+            date = "2016"
+            journal = "2016 49th Hawaii International Conference on System Sciences (HICSS)"
+			publisher = "IEEE"
+            type = "Proceedings"
+
+
+        #[[params.publication.list]]
+            #title = "Offline versus Online: A Meaningful Categorization of Ties for Retweet"
+            #authors = "Felicia NATALI, Feida ZHU"
+            #date = "2018"
+            #journal = "Journal of Field 52 (16), 9033-9044"
+            #url = "#"
+            #type = "Journal Articles"
+
 
     # Project section
     [params.project]
@@ -189,23 +224,23 @@ theme = "aafu"
         icon = "fas fa-cogs fa-fw"
 
         [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
-            skillrating = 90
-        [[params.skill.list]]
-            skill = "Skill 3"
-            skillrating = 80
-        [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
+            skill = "Python, R, Octave, Java, JavaScript, SQL, HTML / CSS, Bash, Hugo, Github"
+		#[[params.skill.list]]
+            #skill = "Skill 1, Skill 2"
+            #skillrating = 90
+        #[[params.skill.list]]
+            #skill = "Skill 3"
+            #skillrating = 80
+
 
     # Hobby section
     [params.hobby]
-        title = "Hobbies"
-        icon = "fas fa-gamepad fa-fw"
+        title = "Languages"
+        icon = "fas fa-comments fa-fw"
 
         [[params.hobby.list]]
-            hobby = "Cooking"
+            hobby = "Fluent English, Bahasa Indonesia"
         [[params.hobby.list]]
-            hobby = "Hiking"
+            hobby = "Lower-Advanced Chinese (HSK6/CEFR B2+)"
         [[params.hobby.list]]
-            hobby = "Baking"
+            hobby = "Basic Russian (CEFR A1+)"
