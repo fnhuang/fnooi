@@ -1,0 +1,15 @@
+{{ define "main" }}
+<link rel="stylesheet" href="{{ `/css/w3.css` | relURL }}">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 2.75em">{{- .Title -}}</h1>
+  <p class="mb-1">{{ .Date.Format "January 2, 2006" }}</p>
+</div>
+<div class="metadata">{{- partial "metadata" . -}}</div>
+
+<div>
+	<p>&mdash;</p>
+</div>
+
+<div class="content">{{ .Content }}</div>
+{{ partial "prevnext" . }}
+{{ end }}

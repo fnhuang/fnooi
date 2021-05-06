@@ -1,17 +1,17 @@
-<p class="mb-1">{{ .Date.Format "January 2, 2006" }}</p>
-<p class="mb-1">Reading Time: {{ .ReadingTime }} minutes</p>
-{{ $params := .Params }} {{ range $name, $value := .Site.Taxonomies }}
-{{ if index $params $name }}
-<p class="metadata-value mb-1 taxa taxa-container-div list-{{- $name -}}">
-  {{ $name | humanize }}: {{ range index $params $name }}
-  <a
-    class="metadata-tags"
-    href="{{ $name | relURL }}/{{ . | urlize }}"
-    title="{{ $name }}"
-  >
-    {{- . -}}
-  </a>
-  {{ end }}
-</p>
+<table>
+{{ $params := .Params }} {{ range $key, $value :=  (slice "duration" "pi" "supervisor" "team" "programme" "grant" "status" "remarks") }}
+{{ if index $params $value }}
+
+	<!-- line height determines space between rows -->
+	<tr style="line-height: 18px;">
+	{{ if eq $value "pi" }}
+	<td style="float:left; width:100px; border:0; text-align:left;">PI:</td>
+	{{ else }}
+	<td style="float:left; width:100px; border:0; text-align:left;">{{ $value | humanize }}:</td>
+	{{ end }}
+	
+	<td style="border:0; text-align:left;">{{ (index $params $value) | markdownify }}</td>
+	</tr>
 {{ end }}
 {{ end }}
+</table>
