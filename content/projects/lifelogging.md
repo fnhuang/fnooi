@@ -19,17 +19,13 @@ Lifelogging explores older adults' travel pattern and its association with built
 by analysing lifelogging images, locations, and diary. Target participants are older people aged 55 and above from 
 Tampines East, West, North, and Changkat. Student assistants are trained to help with the data collection. 
 
-|&nbsp;|&nbsp;|&nbsp;|
-|:-:|:-:|:-:|
-|&emsp;&emsp;&emsp;&emsp;&emsp;|![Mark Place](/images/projects/lifelogging_tampines_map.jpg) Target Neighbourhood|&emsp;&emsp;&emsp;&emsp;&emsp;|
+{{< figure src="/images/projects/lifelogging_tampines_map.jpg" caption="Target Neighbourhood" class="reduced-size">}}
 
 ## Narrative Camera
 Narrative Camera 2 is used to passively collect images of daily activities and environment of the wearer. Information on travel modes 
 and various built environment is extracted for these images. 
 
-|&nbsp;|&nbsp;|&nbsp;|
-|:-:|:-:|:-:|
-|&emsp;&emsp;&emsp;&emsp;&emsp;|![Mark Place](/images/projects/narrative_camera.jpg) *Photo:newatlas.com*. Narrative Camera|&emsp;&emsp;&emsp;&emsp;&emsp;|
+{{< figure src="/images/projects/narrative_camera.jpg" caption="*Photo:newatlas.com*. Narrative Camera" class="reduced-size">}}
 
 
 ## Peglog App

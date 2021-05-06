@@ -24,8 +24,6 @@ difference in community resilience efforts across Singapore. Singapore, as a nat
 fighting the pandemic. The results have been published as a book chapter in 
 [COVID-19 Pandemic, Geospatial Information, and Community Resilience](https://www.routledge.com/COVID-19-Pandemic-Geospatial-Information-and-Community-Resilience-Global/Rajabifard-Paez-Foliente/p/book/9780367775315). 
 
-nbsp;|&nbsp;|
-|:-:|:-:|:-:|
-|&emsp;&emsp;&emsp;&emsp;&emsp;|![Mark Place](/images/projects/covid_graph.png)The fluctuation of community resilience tweets mimics the number of national infected cases|&emsp;&emsp;&emsp;&emsp;&emsp;|
+{{< figure src="/images/projects/covid_graph.png" caption="The fluctuation of community resilience tweets mimics the number of national infected cases" class="reduced-size">}}
 
 

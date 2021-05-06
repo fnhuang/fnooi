@@ -20,13 +20,10 @@ a participatory GIS survey tool. Unlike a typical survey tool, Maptionnaire has 
 that assists participatory urban research and planning. In Maptionnaire, a survey participant can mark a route, or a place, and 
 even an area of interest.
 
-|&nbsp;|&nbsp;|
-|:-: | :-:|
-|![Mark Place](/images/projects/maptionnaire_mark_place.jpg) Marking a Place|![Mark Place](/images/projects/maptionnaire_mark_route.jpg) Marking a Route|
+{{< figure src="/images/projects/maptionnaire_mark_place.jpg" caption="Marking a Place" class="half-size">}}
+{{< figure src="/images/projects/maptionnaire_mark_route.jpg" caption="Marking a Route" class="half-size">}}
 
-|&nbsp;|&nbsp;|&nbsp;|
-|:-:|:-:|:-:|
-|&emsp;&emsp;&emsp;&emsp;&emsp;|![Mark Place](/images/projects/maptionnaire_mark_area.jpg) Marking an Area|&emsp;&emsp;&emsp;&emsp;&emsp;|
+{{< figure src="/images/projects/maptionnaire_mark_route.jpg" caption="Marking an Area" class="reduced-size">}}
 
 The target neighbourhood is Tampines. Tampines Town Council helps in reaching out to participants through social media and 
 brochures. Besides reaching out to the general public staying in Tampines, letters are sent to targeted houses. 
@@ -35,8 +32,6 @@ was requested from the Singapore Department of Statistics (DOS). A letter was se
 inviting a household member to participate in the survey. The survey was live between November 1st, 2020 and November 30th. 
 A special engagement of secondary school students is also conducted in October. 
 
-|&nbsp;|&nbsp;|&nbsp;|
-|:-:|:-:|:-:|
-|&emsp;&emsp;&emsp;&emsp;&emsp;|![Mark Place](/images/projects/maptionnaire_tampines_map.jpg) Target Neighbourhood|&emsp;&emsp;&emsp;&emsp;&emsp;|
+{{< figure src="/images/projects/maptionnaire_tampines_map.jpg" caption="Target Neighbourhood" class="reduced-size">}}
 
 
