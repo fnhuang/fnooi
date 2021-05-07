@@ -1,5 +1,5 @@
 ---
-title: "Saya menang hadiah buku tulis"
+title: "Saya Menang Hadiah Buku Tulis"
 date: 2020-04-20
 cover: russian_handwriting.jpg
 languages: ["EN","ID","ZH","RU"]
@@ -11,4 +11,4 @@ Saya senang sekali :). Tentunya, buku tulis ini akan saya gunakan sebaik-baiknya
 
 {{< figure src="/images/blog/russian_handwriting.jpg" caption="Tulisan Tangan Saya" class="half-size">}}
 
-{{< figure src="/images/blog/notebook.jpg" caption="Buku Catatan yang Saya Menangkan. Di sampulnya tertulis *Dari Petersburg dengan Tak Acuh dan Tak Peduli*" class="half-size">}}
+{{< figure src="/images/blog/notebook.jpg" caption="Buku Catatan yang Saya Menangkan. Di Sampulnya Tertulis *Dari Petersburg dengan Tak Acuh dan Tak Peduli*" class="half-size">}}
