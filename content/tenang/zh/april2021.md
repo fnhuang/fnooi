@@ -3,10 +3,10 @@ title: "我赢了笔记本"
 date: 2020-04-20
 cover: russian_handwriting.jpg
 languages: ["EN","ID","ZH","RU"]
-description: "上个星期, 我在俄语言中心举办的草写入门班写字写得最漂亮，所以赢得了。。。"
+description: "在俄语言中心举办的草写入门班我写字写得最漂亮，所以赢得了。。。"
 ---
 
-上个星期, 我在俄语言中心举办的草写入门班写字写得最漂亮，所以赢得了笔记本. 我非常开心 :). 我将好好利用它. 
+上个星期, 在俄语言中心举办的草写入门班我写字写得最漂亮，所以赢得了笔记本. 我非常开心 :). 我将好好利用它. 
 
 {{< figure src="/images/blog/russian_handwriting.jpg" caption="我的笔迹" class="half-size">}}
 
