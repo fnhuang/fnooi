@@ -3,11 +3,7 @@ title: "Sensing Community Resilience from COVID-19 Using Social Media"
 weight: 2
 date: 2021-05-06
 duration: "Summer 2019"
-pi: "Dr. Belinda YUEN"
-supervisor: ""
-team: "Dr. Felicia HUANG, Ms. Kelly LIM, Mr. Evan SIDHI"
-programme: "Lee Li Ming Programme in Ageing Urbanism"
-grant: "None"
+supervisor: "Dr. Belinda YUEN"
 status: "Completed"
 remarks: ""
 ---

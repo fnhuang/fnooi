@@ -1,5 +1,5 @@
 <table>
-{{ $params := .Params }} {{ range $key, $value :=  (slice "duration" "pi" "supervisor" "team" "programme" "grant" "status" "remarks") }}
+{{ $params := .Params }} {{ range $key, $value :=  (slice "duration" "supervisor" "status" "remarks") }}
 {{ if index $params $value }}
 
 	<!-- line height determines space between rows -->
