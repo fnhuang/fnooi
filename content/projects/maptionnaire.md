@@ -4,7 +4,7 @@ weight: 4
 date: 2021-05-06
 duration: "2019 - *Present*"
 supervisor: "Dr. Belinda YUEN"
-status: "Report writing in progress"
+status: "Report and Journal article writing in progress"
 remarks: ""
 ---
 <!--
