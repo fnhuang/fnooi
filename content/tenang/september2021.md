@@ -17,7 +17,7 @@ Chinese language and culture, as well as Chinese characters, [were outlawed in I
 
 Thus, my chinese study began in 2005, at the age of 16. Our class was held weekly at a teacher's home. Her home was not far away from our home. The teacher used a childrens' book from Taiwan to teach us. Every week, it's the same routine. She read us a story. We had to repeat each sentence she read aloud. She made a list of all new words and asked us to copy them many times into our copybooks. She didn't teach us using any standard phonetic system, e.g. [zhuyin](https://en.wikipedia.org/wiki/Bopomofo), or [pinyin](https://en.wikipedia.org/wiki/Pinyin). We just had to follow how she wrote and how she spoke. For two years, I learnt Chinese in this manner. As I mentioned, getting a good chinese education could be considered a luxury at that time. 
 
-[image the zhuyin system]  
+[image the zhuyin system: test]  
 
 Aside from that, I took Chinese as an extracurricular during my senior year of high school. It wasn't a serious class, and the grade we earned did not matter. The book emphasized conversational skills and simply taught students simple conversations such as "how are you?" and "I'm OK." We were also given a cursory introduction to the pinyin system in the class.
 
