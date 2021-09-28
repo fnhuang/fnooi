@@ -239,8 +239,10 @@ theme = "aafu"
         icon = "fas fa-comments fa-fw"
 
         [[params.hobby.list]]
-            hobby = "Fluent English, Bahasa Indonesia"
+            hobby = "Native Bahasa Indonesia"
+		[[params.hobby.list]]
+			hobby = "Fluent English (IELTS Band 8/CEFR C1)"
         [[params.hobby.list]]
-            hobby = "Lower-Advanced Chinese (HSK6/CEFR B2+)"
+            hobby = "Lower-Advanced Chinese (HSK 6/CEFR B2+)"
         [[params.hobby.list]]
-            hobby = "Basic Russian (CEFR A1+)"
+            hobby = "Basic Russian (CEFR A2)"
