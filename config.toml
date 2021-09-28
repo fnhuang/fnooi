@@ -87,7 +87,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user fa-fw"
-        description = "Felicia N. Huang is a research data manager at the Institute of Cardiovascular Science at the University College London (UCL). Prior to joining UCL, she worked at the Lee Kuan Yew Centre for Innovative Cities (LKYCIC) as a research fellow. She received her Ph.D. from the Singapore Management Unviersity's School of Information Systems."
+        description = "Felicia N. Huang is a research data manager at the Institute of Cardiovascular Science at the University College London (UCL). Prior to joining UCL, she worked at the Lee Kuan Yew Centre for Innovative Cities (LKYCIC) as a research fellow. She received her Ph.D. from the Singapore Management University's School of Information Systems."
 
     # Experience section
     [params.experience]
@@ -98,7 +98,7 @@ theme = "aafu"
             position = "Research Data Manager"
             dates = "2021 - *Present*"
             company = "University College London"
-            details = "Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). Prepare and provide high quality and relevant data for the COVID-19 National Core Studies programme. Design ana management of research databases."
+            details = "Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). Prepare and provide high quality and relevant data for the COVID-19 National Core Studies programme. Design and management of research databases."
 		[[params.experience.list]]
             position = "Research Fellow"
             dates = "2018 - 2021"
