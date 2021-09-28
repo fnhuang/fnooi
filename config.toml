@@ -95,7 +95,7 @@ theme = "aafu"
         icon = "fas fa-briefcase fa-fw"
 
         [[params.experience.list]]
-            position = "Research Data Manager"
+            position = "Data Manager"
             dates = "2021 - *Present*"
             company = "University College London"
             details = "Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). Prepare and provide high quality and relevant data for the COVID-19 National Core Studies programme. Design and management of research databases."
