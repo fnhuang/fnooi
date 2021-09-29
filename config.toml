@@ -103,7 +103,7 @@ theme = "aafu"
             position = "Research Fellow"
             dates = "2018 - 2021"
             company = "Lee Kuan Yew Centre for Innovative Cities"
-            details = "Conduct, and collaborate in several research projects that harness big data to help with urban planning. Guide and supervise research interns and assistants."
+            details = "Conducted, and collaborated in several research projects that harness big data to help with urban planning. Guided and supervised research interns and assistants."
         [[params.experience.list]]
             position = "IT Analyst"
             dates = "2011 - 2012"
