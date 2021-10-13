@@ -98,7 +98,7 @@ theme = "aafu"
             position = "Data Manager/Engineer"
             dates = "2021 - *Present*"
             company = "University College London"
-            details = "Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). Prepare and provide high quality, readable, and relevant data for the COVID-19 National Core Studies programme. Management and design optimization research databases for analysis."
+            details = "Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). Prepare and provide high quality, readable, and relevant data for the COVID-19 National Core Studies programme. Management and design optimization of research databases for analysis."
 		[[params.experience.list]]
             position = "Research Fellow"
             dates = "2018 - 2021"
