@@ -3,4 +3,4 @@ title: "Projects"
 weight: 100
 ---
 
-To be updated soon
+My Work and Side Projects
