@@ -1,6 +1,6 @@
 ---
 title: "Bagaimana Saya Belajar Mandarin (Part I)"
-date: 2020-09-28
+date: 2021-09-28
 cover: zhuyin.jpg
 languages: ["EN","ID","ZH","RU"]
 description: "Tulisan ini adalah bagian pertama dari perjalanan saya belajar bahasa mandarin. Saya berharap lewat tulisan ini para pembaca menemukan tips-tips belajar mandarin dan inspirasi untuk terus belajar Mandarin."

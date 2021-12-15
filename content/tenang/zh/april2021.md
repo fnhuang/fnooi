@@ -1,6 +1,6 @@
 ---
 title: "我赢了笔记本"
-date: 2020-04-20
+date: 2021-04-20
 cover: russian_handwriting.jpg
 languages: ["EN","ID","ZH","RU"]
 description: "在俄语言中心举办的草写入门班我写字写得最漂亮，所以赢得了。。。"

@@ -1,6 +1,6 @@
 ---
 title: "Saya Menang Hadiah Buku Tulis"
-date: 2020-04-20
+date: 2021-04-20
 cover: russian_handwriting.jpg
 languages: ["EN","ID","ZH","RU"]
 description: "Akhir pekan kemarin, di kelas menulis indah yang diselenggarakan oleh Institut Bahasa Rusia, saya memenangkan..."

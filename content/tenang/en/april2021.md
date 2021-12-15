@@ -1,6 +1,6 @@
 ---
 title: "I Won a Notebook"
-date: 2020-04-20
+date: 2021-04-20
 cover: russian_handwriting.jpg
 languages: ["EN","ID","ZH","RU"]
 description: "Last weekend, in a cursive workshop, I won a notebook from the russian language centre..."

@@ -1,6 +1,6 @@
 ---
 title: "What I Cook in a Week"
-date: 2021-12-16
+date: 2021-12-15
 cover: tauge_thumb.jpg
 languages: ["EN","ZH","RU"]
 description: "Since relocating to London, cooking has become a part of my daily life. This essay describes what I eat during a week."

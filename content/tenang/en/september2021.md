@@ -1,6 +1,6 @@
 ---
 title: "How I Learn Chinese (Part I)"
-date: 2020-09-28
+date: 2021-09-28
 cover: zhuyin.jpg
 languages: ["EN","ID","ZH","RU"]
 description: "This is the first part of my Chinese learning journey. I hope readers will discover some helpful tips and inspiration for their Chinese learning."

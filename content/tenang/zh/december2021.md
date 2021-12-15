@@ -1,6 +1,6 @@
 ---
 title: "我做的家常菜"
-date: 2021-12-16
+date: 2021-12-15
 cover: tauge_thumb.jpg
 languages: ["EN","ZH","RU"]
 description: "自从住在伦敦, 做饭变成了我的日常家务之一. 这篇文章列出了我们每个星期自己做的家常菜"
