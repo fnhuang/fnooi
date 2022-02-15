@@ -248,6 +248,6 @@ theme = "aafu"
 		[[params.hobby.list]]
 			hobby = "Fluent English (IELTS Band 8/CEFR C1)"
         [[params.hobby.list]]
-            hobby = "Lower-Advanced Chinese (HSK 6/CEFR B2+)"
+            hobby = "Advanced Chinese (HSK 6/CEFR B2+)"
         [[params.hobby.list]]
             hobby = "Basic Russian (CEFR A2)"
