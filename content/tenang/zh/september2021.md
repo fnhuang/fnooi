@@ -1,6 +1,6 @@
 ---
 title: "我的中文学习旅程 (第一部)"
-date: 2020-09-28
+date: 2021-09-28
 cover: zhuyin.jpg
 languages: ["EN","ID","ZH","RU"]
 description: "这是我中文学习之旅的第一部分。 希望读者能从中发现一些实用的学习中文方法，而且找到了自己继续前进的力量。"
