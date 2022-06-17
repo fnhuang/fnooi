@@ -98,7 +98,7 @@ theme = "aafu"
             position = "Data Manager/Engineer"
             dates = "2021 - *Present*"
             company = "University College London"
-            details = "Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). Prepare and provide high quality, readable, and relevant data for the COVID-19 National Core Studies programme. Management and design optimization of research databases for analysis."
+            details = "* Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). \n* Prepare and provide high quality, readable, and relevant data for the COVID-19 National Core Studies programme. \n* Management of NHS-Digital linked databases for analysis. \n* Undertaking responsiblity as a steering committee member of [COMETS](https://epi.grants.cancer.gov/comets/)."
 		[[params.experience.list]]
             position = "Research Fellow"
             dates = "2018 - 2021"
@@ -147,7 +147,7 @@ theme = "aafu"
             authors = "Felicia N. HUANG*, Kelly LIM, Evan SIDHI, Belinda YUEN"
             date = "2021"
             journal = "COVID –19 : Geospatial Information and Community Resilience"
-			publisher = "Taylor and Francis Group"
+			publisher = "CRC Press"
             type = "Book Chapters"
 			
 		[[params.publication.list]]
