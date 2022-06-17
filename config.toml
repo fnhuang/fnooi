@@ -103,12 +103,12 @@ theme = "aafu"
             position = "Research Fellow"
             dates = "2018 - 2021"
             company = "Lee Kuan Yew Centre for Innovative Cities"
-            details = "Conducted, and collaborated in several research projects that harness big data to help with urban planning. Guided and supervised research interns and assistants."
+            details = "* Conducted, and collaborated in several research projects that harness big data to help with urban planning. \n* Guided and supervised research interns and assistants."
         [[params.experience.list]]
             position = "IT Analyst"
             dates = "2011 - 2012"
             company = "Singapore Telecommunications Ltd."
-            details = "Assisted in building a website. Performed quality testing. Conducted code review."
+            details = "* Assisted in building a website. \n* Performed quality testing. \n* Conducted code review."
 
     # Education section
     [params.education]
