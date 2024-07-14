@@ -7,7 +7,7 @@ theme = "aafu"
     title = "Felicia N. Huang"
     author = "Felicia Huang"
     description = "Felicia Huang's Website"
-    copyright = "Felicia Huang 2021"
+    copyright = "Felicia Huang 2024"
 
     [params.theme]
         # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
@@ -15,17 +15,6 @@ theme = "aafu"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
         showAttribute = true
         singlePage = false
-
-    [params.favicons]
-        use = false
-        metas = '''
-        <link rel="apple-touch-icon" sizes="180x180" href="">
-        <link rel="icon" type="image/png" sizes="32x32" href="">
-        <link rel="icon" type="image/png" sizes="16x16" href="">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-        <link rel="shortcut icon" href="">
-        '''
 
     # Profile section
     [params.profile]
