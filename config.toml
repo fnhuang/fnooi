@@ -20,7 +20,7 @@ theme = "aafu"
     [params.profile]
         name = "Felicia N. Huang"
         tagline = "Ph.D., Data Engineer"
-        location = "London, United Kingdom"
+        location = "Beijing, China"
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -39,10 +39,10 @@ theme = "aafu"
             icon = "fab fa-github"
             url = "https://github.com/fnhuang"
             title = "GitHub"
-        [[params.social.list]]
-            icon = "fab fa-twitter"
-            url = "https://twitter.com/FeliciaHuang16"
-            title = "Twitter"
+        #[[params.social.list]]
+            #icon = "fab fa-twitter"
+            #url = "#"
+            #title = "Twitter"
         [[params.social.list]]
             icon = "fab fa-orcid"
             url = "https://orcid.org/0000-0002-8700-8974"
@@ -76,7 +76,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user fa-fw"
-        description = "Felicia N. Huang is a research data manager/engineer at the MRC Unit for Lifelong Health and Ageing at the University College London (UCL). Prior to joining UCL, she worked at the Lee Kuan Yew Centre for Innovative Cities (LKYCIC) as a research fellow. She received her Ph.D. from the Singapore Management University's School of Information Systems."
+        description = "I am currently taking a break from the job market to dedicate more time to my family and to work on a language education startup. In June 2024, I received my certification as a Google Certified Data Engineer. Previously, I worked as a research data engineer at the University College London (UCL). Before transitioning to data engineering, I was as a research fellow at the Lee Kuan Yew Centre for Innovative Cities. I earned my Ph.D. from the School of Information Systems at Singapore Management University. During my free time I love to read books and learn languages."
 
     # Experience section
     [params.experience]
@@ -87,7 +87,7 @@ theme = "aafu"
             position = "Data Manager/Engineer"
             dates = "2021 - *Present*"
             company = "University College London"
-            details = "* Support and take forward management of the research data for the cohort studies managed by the MRC LHA (Medical Research Council Unit of Lifelong Health and Ageing). \n* Prepare and provide high quality, readable, and relevant data for the COVID-19 National Core Studies programme. \n* Management of NHS-Digital linked databases for analysis. \n* Undertaking responsiblity as a steering committee member of [COMETS](https://epi.grants.cancer.gov/comets/)."
+            details = "* Developed an automated data request system for NSHD, a cohort study involving people born in the UK who have participated in extensive physical, cognitive, and mental health assessments. This automation replaced the previous manual email-based process, creating a seamless and efficient experience for the data management team to handle daily data requests. \n* Managed the research data for SABRE, a cohort study managed by the MRC LHA (Medical Research Council Unit for Lifelong Health and Ageing) comparing cardiovascular disease and diabetes between different ethnic groups. \n* Facilitated the transition of the NSHD data showcase to align with the UK Biobank Data Showcase."
 		[[params.experience.list]]
             position = "Research Fellow"
             dates = "2018 - 2021"
@@ -128,9 +128,17 @@ theme = "aafu"
         #The order below determines the order in which the items appear in "Publications" section
         format = ["date", "authors", "title", "journal", "publisher"]
         #If you don't want to group publications, comment the line below by adding # at the beginning
-        # types = ["Journal Articles", "Proceedings", "Book Chapters"]
-		types = ["Proceedings", "Book Chapters"]
+        types = ["Journal Articles", "Proceedings", "Book Chapters"]
+		# types = ["Proceedings", "Book Chapters"]
 
+        [[params.publication.list]]
+            title = "Blood-Based Epigenome-Wide Analyses of Chronic Low-Grade Inflammation across Diverse Populations Cohorts"
+            authors = "Robert F HILLARY et al."
+            date = "2024"
+            journal = "Cell Genomics 4(5)"
+			publisher = "Elsevier"
+            type = "Journal Articles"
+        
         [[params.publication.list]]
             title = "Sensing Community Resilience from COVID-19 Using Social Media"
             authors = "Felicia N. HUANG*, Kelly LIM, Evan SIDHI, Belinda YUEN"
@@ -237,6 +245,6 @@ theme = "aafu"
 		[[params.hobby.list]]
 			hobby = "Fluent English (IELTS Band 8/CEFR C1)"
         [[params.hobby.list]]
-            hobby = "Advanced Chinese (HSK 6/CEFR B2+)"
+            hobby = "Fluent Chinese (HSK 6/CEFR B2+)"
         [[params.hobby.list]]
-            hobby = "Basic Russian (CEFR A2)"
+            hobby = "Intermediate Russian (CEFR B1)"
