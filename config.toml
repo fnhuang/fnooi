@@ -85,7 +85,7 @@ theme = "aafu"
 
         [[params.experience.list]]
             position = "Data Manager/Engineer"
-            dates = "2021 - *Present*"
+            dates = "2021 - 2024"
             company = "University College London"
             details = "* Developed an automated data request system for NSHD, a cohort study involving people born in the UK who have participated in extensive physical, cognitive, and mental health assessments. This automation replaced the previous manual email-based process, creating a seamless and efficient experience for the data management team to handle daily data requests. \n* Managed the research data for SABRE, a cohort study managed by the MRC LHA (Medical Research Council Unit for Lifelong Health and Ageing) comparing cardiovascular disease and diabetes between different ethnic groups. \n* Facilitated the transition of the NSHD data showcase to align with the UK Biobank Data Showcase."
 		[[params.experience.list]]
