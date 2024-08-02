@@ -1,5 +1,5 @@
 ---
-title: "A Language Education Startup"
+title: "A Chinese Interlinear Web Reader"
 weight: 1
 date: 2024-07-16
 status: "It's Brewing. Click to view summary."

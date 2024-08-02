@@ -76,7 +76,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user fa-fw"
-        description = "I am currently taking a break from the job market to dedicate more time to my family and to work on a language education startup. In June 2024, I received my certification as a Google Certified Data Engineer. Previously, I worked as a research data engineer at the University College London (UCL). Before transitioning to data engineering, I was as a research fellow at the Lee Kuan Yew Centre for Innovative Cities. I earned my Ph.D. from the School of Information Systems at Singapore Management University. During my free time I love to read books and learn languages."
+        description = "I am currently taking a break from the job market to dedicate more time to my family and to work on an interlinear web reader for language learning. In June 2024, I received my certification as a Google Certified Data Engineer. Previously, I worked as a research data engineer at the University College London (UCL). Before transitioning to data engineering, I was as a research fellow at the Lee Kuan Yew Centre for Innovative Cities. I earned my Ph.D. from the School of Information Systems at Singapore Management University. During my free time I love to read books and learn languages."
 
     # Experience section
     [params.experience]
