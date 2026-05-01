@@ -197,28 +197,6 @@ theme = "aafu"
             #type = "Journal Articles"
 
 
-    # Project section
-    [params.project]
-        title = "Projects"
-        icon = "fas fa-project-diagram fa-fw"
-
-        [[params.project.list]]
-            title = "Project 1"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 2"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 3"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "Project 4"
-            url = "#"
-            description = "Description of the project"
-
     # Skill section
     [params.skill]
         title = "Skills"
